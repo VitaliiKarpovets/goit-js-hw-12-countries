@@ -25,3 +25,36 @@
   background-size: cover;
   background-position: center;
 }
+
+.js-card-container {
+  margin: auto;
+}
+
+.card {
+  display: flex;
+}
+
+.card__text,
+.card__list,
+.card__lists {
+  font-size: 25px;
+}
+
+.card__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.descr {
+  font-weight: bold;
+}
+
+.card__descr {
+  padding-right: 50px;
+}
+
+.card__title {
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
